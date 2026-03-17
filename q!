@@ -1,0 +1,91 @@
+[33mcommit e33e0e60d931d52db52a90c60f0d7ee42c3e9f5a[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/new-feature[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mnew-feature[m[33m)[m
+Author: macbruce500 <macbruce770@gmail.com>
+Date:   Tue Mar 17 11:11:29 2026 +0000
+
+    New Feature
+
+[33mcommit d3909241e79e9c9110458293d82ce161375b2adf[m[33m ([m[1;31morigin/Header[m[33m, [m[1;31morigin/Footer[m[33m)[m
+Author: macbruce500 <macbruce770@gmail.com>
+Date:   Tue Mar 17 10:03:45 2026 +0000
+
+    New Feature
+
+[33mcommit d9cc8d73dd9fc58db439550d2db11019147e7919[m[33m ([m[1;31morigin/Login[m[33m)[m
+Merge: 56613d0 ada2f21
+Author: macbruce500 <macbruce770@gmail.com>
+Date:   Tue Mar 17 09:57:02 2026 +0000
+
+    Merge branch 'add-header'
+
+[33mcommit ada2f21f87cb8e151892144087a608522172c6bd[m[33m ([m[1;31morigin/add-header[m[33m)[m
+Author: macbruce500 <macbruce770@gmail.com>
+Date:   Tue Mar 17 09:53:00 2026 +0000
+
+    NEW FILE
+
+[33mcommit 56613d0eeec2bc41b1ec224f73fd063424e2046e[m
+Author: macbruce500 <macbruce770@gmail.com>
+Date:   Tue Mar 17 09:48:47 2026 +0000
+
+    Updated
+
+[33mcommit d0ca030c63408eac7cdaec256759f5bfeecc6caf[m
+Author: macbruce500 <macbruce770@gmail.com>
+Date:   Tue Mar 17 09:45:54 2026 +0000
+
+    Updated
+
+[33mcommit c31cb781f5609b4eeff7bec0aab090058ab616bb[m
+Author: macbruce500 <macbruce770@gmail.com>
+Date:   Tue Mar 17 09:31:57 2026 +0000
+
+    Updated With Spaces
+
+[33mcommit feee0e186e27a07c3e53ffa7a7285278599b8a13[m
+Author: macbruce500 <macbruce770@gmail.com>
+Date:   Mon Mar 16 09:53:39 2026 +0000
+
+    Add initial students table
+
+[33mcommit 812767b54cd5778e4e8d32f4f6c463356a7660bb[m
+Author: macbruce500 <macbruce770@gmail.com>
+Date:   Mon Mar 16 06:18:45 2026 +0000
+
+    Updated Heading
+
+[33mcommit 4dd75aea0882b7286bc958e21b325c3339f11cd2[m
+Author: macbruce500 <macbruce770@gmail.com>
+Date:   Mon Mar 16 06:07:51 2026 +0000
+
+    index.html
+
+[33mcommit 7fa3d0ea409241520a42f52e3327cbb0b2fcfaa1[m
+Merge: 031aa41 a7fddb3
+Author: macbruce500 <macbruce770@gmail.com>
+Date:   Mon Mar 16 06:03:53 2026 +0000
+
+    Merge branch 'main' of https://github.com/macbruce500/Firstproject
+
+[33mcommit 031aa4103e6b7699800b20b85393a737deda0107[m
+Author: macbruce500 <macbruce770@gmail.com>
+Date:   Mon Mar 16 05:57:04 2026 +0000
+
+    Initial commit
+
+[33mcommit a7fddb3e0f1b99510646134a2ee2af86f649fd16[m
+Author: macbruce500 <macbruce770@gmail.com>
+Date:   Mon Mar 16 05:52:03 2026 +0000
+
+    Update README.md
+
+[33mcommit 6d47909780201c09e1f3eebb583ec5a54559fc3d[m
+Author: macbruce500 <macbruce770@gmail.com>
+Date:   Mon Mar 16 05:42:59 2026 +0000
+
+    Initial commit
+
+[33mcommit a46a4ce71be529acf5abf970593a4c621f524d5e[m
+Author: macbruce500 <macbruce770@gmail.com>
+Date:   Mon Mar 16 05:26:16 2026 +0000
+
+    Initial commit
