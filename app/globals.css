@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-white/10;
+  }
+
+  body {
+    @apply bg-white text-gray-900 antialiased;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-gray-100;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #5865F2;
+    border-radius: 9999px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #4752c4;
+    box-shadow: 0 0 10px #5865F2;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply bg-white/80 backdrop-blur-md border border-gray-200;
+  }
+
+  .glass-card {
+    @apply glass rounded-xl transition-all duration-300 hover:shadow-lg hover:border-primary/30;
+  }
+
+  .neon-text {
+    @apply text-transparent bg-clip-text bg-gradient-to-r from-primary via-secondary to-neon-cyan;
+  }
+
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .grid-responsive {
+    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6;
+  }
+}
+
+@layer utilities {
+  .shadow-neon {
+    box-shadow: 0 0 20px rgba(108, 99, 255, 0.3);
+  }
+
+  .shadow-neon-strong {
+    box-shadow: 0 0 30px rgba(108, 99, 255, 0.5);
+  }
+
+  .text-glow {
+    text-shadow: 0 0 20px rgba(108, 99, 255, 0.5);
+  }
+}
+
+/* Hide default cursor on all interactive elements */
+button, a, [role="button"], .cursor-pointer, input, textarea, select, .glass-card, .card, img, .neon-text, .gradient-text {
+  cursor: none !important;
+}
+
+body {
+  cursor: none;
+}
+
+::selection {
+  background-color: #6C63FF;
+  color: white;
+}
+
+/* Live indicators */
+@keyframes pulse-live {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(0.95); }
+}
+
+.live-indicator {
+  animation: pulse-live 2s ease-in-out infinite;
+}
+
+.live-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: #10B981;
+  border-radius: 50%;
+  animation: pulse-live 1.5s ease-in-out infinite;
+  margin-right: 6px;
+}
+
+/* Fade effect for sections when scrolling under navbar */
+section {
+  transition: opacity 0.3s ease-out;
+  will-change: opacity;
+}
+
+/* Hide scrollbar for categories section */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* GPU acceleration for smooth scrolling */
+.feat-card {
+  will-change: transform;
+  transform: translateZ(0);
+}
